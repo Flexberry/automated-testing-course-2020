@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+bower_components/
+
+# ide and code editor files
+/.idea
+.tern-port
+.dir-locals.el
+/blueprints/.vscode
+/tsconfig.json
+/blueprints/.editorconfig
+/.vscode
+
+.vscodeignore
+jsconfig.json
+typings/ember/ember.d.ts
+/blueprints/.vs
+/blueprints/bin
+/blueprints/obj
+**/*.njsproj
+/.vs
+/bin
+/obj
