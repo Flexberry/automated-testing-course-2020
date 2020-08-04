@@ -1,0 +1,23 @@
+{
+  "name": "no-framework",
+  "version": "1.0.0",
+  "description": "Using tests without test framework",
+  "type": "module",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flexberry/automated-testing-course-2020.git"
+  },
+  "author": "Evgeniy Khaberev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Flexberry/automated-testing-course-2020/issues"
+  },
+  "homepage": "https://github.com/Flexberry/automated-testing-course-2020#readme",
+  "engines": {
+    "node": ">= 13.*"
+  }
+}
