@@ -12,4 +12,9 @@ test('it renders', function(assert) {
 
   assert.equal(this.$('h1').text(), 'Jon');
   assert.equal(this.$('p').text(), 'Ok!');
+
+  this.set('comment', { author: 'Jo', text: 'Not ok!' });
+
+  assert.equal(this.$('h1').text(), 'Jo');
+  assert.equal(this.$('p').text(), 'Not ok!');
 });
